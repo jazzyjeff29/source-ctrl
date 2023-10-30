@@ -1,0 +1,75 @@
+body {
+    background-color: lightblue;
+    font-family: verdana;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+    font-family: verdana;
+  }
+  
+  div#wholepage {
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+  }
+  
+  header {
+    border-bottom: 1px solid white;
+    float: left;
+    padding: 10px 10px 0px 10px;
+    width: 980px;
+  }
+  
+  nav#main_nav {
+    float: right;
+    width: 980px;
+  }
+  
+  h2 {
+    color: black;
+    font-family: verdana;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 14px;
+  }
+  
+  nav#main_nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  nav#main_nav ul li {
+    float: left;
+  }
+  
+  nav#main_nav ul li a {
+    background-color: blue;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+  nav#main_nav ul li a:hover {
+    background-color: black;
+    font-weight: bold;
+  }
+  
+  /*nav#main_nav ul li a:visited {
+    background-color: purple;
+  }*/
+  
+  nav#main_nav ul li a:active {
+    background-color: black;
+    text-decoration: underline;
+  }
